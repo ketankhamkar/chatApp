@@ -3,10 +3,10 @@ name: React Native Debug Build
 on:
   push:
     branches:
-      - main  # Runs on push to the main branch
+      - master  # Runs on push to the master branch
   pull_request:
     branches:
-      - main  # Runs on PR to main
+      - master  # Runs on PR to master
 
 jobs:
   android-build:
